@@ -17,8 +17,9 @@ public:
                     s.insert({nums[i], nums[j], nums[k]});
                     j++;
                     k--;
-                } else if (sum < target) {
-                    j++;
+                }
+                else if (sum < target) {
+                    j++;  
                 } else {
                     k--;
                 }
