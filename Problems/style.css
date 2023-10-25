@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-size: 1rem; */
+}
+body{
+    background-color: #000000 ;
+}
+.parent{
+    display: flex;
+}
+.container1{
+    color:#ffffff;
+    width: 54%;
+    height: 95vh;
+    position: relative;
+    border: 4px solid gray;
+    border-radius: 5px;
+    margin:10px ;
+}
+
+.head{
+    font-size: 1.5rem;
+    height:60px;
+    border: 2px solid black;
+    color: #ffffff;
+    text-align: center;
+    background-color: #7C7A7A;
+    border-radius: 5px;
+    margin-bottom: 4px;
+}
+
+.problem{
+    height: 10%;
+    width: 100%;
+    background-color: #364958;
+    border: 2px solid black;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    padding-left: 3px;
+    line-height: 25px;
+}
+.effect:hover{
+    border: 2px solid white;
+}
+.description{
+    height: 89%;
+    width: 100%;
+    background-color: #364958;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    padding-left: 3px;
+    ;
+}
+p{
+    font-size: 1.4rem;
+}
+#description_label{
+    font-weight: 900;
+    color: #ffffff;
+}
+#description_note{
+    font-weight: 550;
+}
+hr{
+    background-color: black;
+    height: 3px;
+}
+pre{
+    border-left: 2px solid gray;
+    padding-left: 10px;
+    font-size: 1rem;
+}
+
+/* Code solution */
+.container2{
+    color:#ffffff;
+    width: 54%;
+    height: 95vh;
+    position: relative;
+    border: 4px solid gray;
+    border-radius: 5px;
+    margin:10px ;
+
+}
