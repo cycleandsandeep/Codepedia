@@ -1,3 +1,9 @@
+<p align="center">
+    <a href="https://hacktoberfest.com/" target="_blank">
+    	<img src="https://hacktoberfest.com/_next/static/media/logo-hacktoberfest--horizontal.ebc5fdc8.svg" width="800px" height="400px">
+    </a>
+</p>
+
 ## Codepedia
 A repository for Algorithms with examples.
 
@@ -16,3 +22,4 @@ Don't forget to give the project a star! Thanks again!
 <a href="https://github.com/cycleandsandeep/Codepedia/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=cycleandsandeep/Codepedia" />
 </a>
+
