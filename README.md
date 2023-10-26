@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://hacktoberfest.com/" target="_blank">
-    	<img src="https://hacktoberfest.com/_next/static/media/logo-hacktoberfest--horizontal.ebc5fdc8.svg" width="800px" height="400px">
+    	<img src="https://github.com/cycleandsandeep/Codepedia/blob/main/Hacktoberfest.png" width="800px" height="400px">
     </a>
 </p>
 
