@@ -4,10 +4,10 @@
     </a>
 </p>
 
-## Codepedia
+## Codepedia :smiley:
 A repository for Algorithms with examples.
 
-## Contributing
+## Contributing :eyes:
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
