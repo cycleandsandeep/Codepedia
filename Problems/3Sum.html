@@ -7,23 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="head effect">
-        <h1>Codepedia</h1>
-    </div>
-    <div class="parent">
-        <div class="container1">
-            <!-- Problem and Description -->
-            <div class="problem effect">
-                <div class="problem-name">
-                    <p>Problem :</p>
-                    <p>3Sum</p>
-                </div>
+   <div class="parent">
+    <div class="head ">
+        <div class="left_head">
+            <h2>Codepedia</h2>
+        </div>
+        <div class="right_head">
+            <a href="#">Home</a>
+            <a href="#">login</a>
+            <a href="#">Problems</a>
+            <a href="#">About Us</a>
+        </div>
+     </div>
+     <!-- This is content area -->
+     <div class="main">
+        <!-- Problem & solution-->
+        <div class="problem">
+            <div class="problem-nav">
+                <button>Problem</button>
+                <button>Discuss</button>
             </div>
 
-            <!-- Description -->
-            <div class="description effect">
-                <P id="description_label">Problem description</P>
-                <hr>
+            <div class="problem-content">
                 <p>Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.</p>
                 <br>
                 <p id="description_note">Notice that the solution set must not contain duplicate triplets.</p>
@@ -37,30 +42,27 @@ nums[1] + nums[2] + nums[4] = 0 + 1 + (-1) = 0.
 nums[0] + nums[3] + nums[4] = (-1) + 2 + (-1) = 0.
 The distinct triplets are [-1,0,1] and [-1,-1,2].
 Notice that the order of the output and the order of the triplets does not matter.</pre>
+<br>
 <strong>Example 2:</strong>
 <pre>Input: nums = [0,1,1]
 Output: []
 Explanation: The only possible triplet does not sum up to 0.
 </pre>
+<br>
 <strong>Example 3:</strong>
 <pre>Input: nums = [0,0,0]
 Output: [[0,0,0]]
 Explanation: The only possible triplet sums up to 0.
 </pre>
-                <!-- <p>Example 1:</p>
-                <p>Output: [[-1,-1,2],[-1,0,1]]</p>
-                <p>Explanation: </p>
-                <p>nums[0] + nums[1] + nums[2] = (-1) + 0 + 1 = 0.</p>
-                <p>nums[1] + nums[2] + nums[4] = 0 + 1 + (-1) = 0.</p>
-                <p>nums[0] + nums[3] + nums[4] = (-1) + 2 + (-1) = 0.</p>
-                <p>The distinct triplets are [-1,0,1] and [-1,-1,2].</p>
-                <p>Notice that the order of the output and the order of the triplets does not matter.</p>    -->
             </div>
+                
+        </div>
+        <!-- solution code  -->
+        <div class="solution">
 
         </div>
-        <div class="container2">
-             <!-- Solution Code -->
-        </div>
-    </div>
+     </div>
+   </div>
+
 </body>
 </html>
