@@ -2,87 +2,167 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* font-size: 1rem; */
 }
 body{
-    background-color: #000000 ;
+    width: 100vw;
+    height: 100vh;
 }
 .parent{
-    display: flex;
+    width: 100vw;
+    height: 100vh;
 }
-.container1{
-    color:#ffffff;
-    width: 54%;
-    height: 95vh;
-    position: relative;
-    border: 4px solid gray;
+a{
+    text-decoration: none;
+    color: white;
+    transition: all .3s ease-in 0s;
+    border: 2px solid rgba(128, 128, 128, 0);
     border-radius: 5px;
-    margin:10px ;
+    padding: 3px;
 }
-
 .head{
-    font-size: 1.5rem;
-    height:60px;
-    border: 2px solid black;
-    color: #ffffff;
-    text-align: center;
-    background-color: #7C7A7A;
-    border-radius: 5px;
-    margin-bottom: 4px;
+    height: 80px;
+    width: auto;
+    background-color: #073B3A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.left_head{
+    position: relative;
+    height: 70px;
+    width: 35%;
+    margin: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+@media (max-width:320px) {
+    .right_head{
+        font-size: small;
+    }
+    .left_head h2{
+        font-size: 1.3rem;
+    }
+    .right_head a{
+        font-size: 0.9rem;
+    }
+    
+}
+.right_head{
+    height: 70px;
+    width: 60%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* transition: all 2s ease-in 0.1s; */
+}
+.right_head a:hover{
+    scale: 1.2  ;
+    border: 2px solid rgba(35, 43, 91, 0.854);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.right_head a:active{
+    color: #8BC6EC;
+  
+}
+.main{
+    width: 100vw;
+    background-color: #0b6e4fce;
+    display: flex;
+    justify-content: space-between;
+}
 .problem{
-    height: 10%;
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+    color: white;
+}
+button{
+    background-color: transparent;
+    color: white;
+    height: 100%;
+    width: 130px;
+    
+    border: 2px solid rgba(35, 43, 91, 0);
+    border-radius:4px ;
+    transition: all 1s ease-in 0s;
+}
+button:hover{
+    scale: 1.2  ;
+    /* border: 2px solid rgba(35, 43, 91, 0.854); */
+    /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+}
+.problem-nav{
     width: 100%;
-    background-color: #364958;
-    border: 2px solid black;
-    position: relative;
-    border-radius: 5px;
-    margin-bottom: 4px;
-    padding-left: 3px;
+    height: 40px;
+    background-color: #0b6e4f;
+    overflow: hidden;
+    
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.solution{
+    
+    width: 50%;
+    background-color:none;
+    font-size: 1.1rem;
+}
+pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    }
+@media (max-width:425px) {
+    .main{
+        flex-direction: column;
+    }
+    .problem{
+        width: 100vw;
+        font-size: smaller;
+    }
+    .problem-content
+    {
+        font-size: .5rem;
+    }
+}
+@media (min-width:425px) {
+    .solution,.problem{
+        border: 2px solid rgba(43, 12, 88, 0.833);
+        border-bottom: none;
+    }
+}
+.problem-content{
+    font-size:1.2rem;
+    height: 100%;
+    margin:6px;
     line-height: 25px;
+    font-size: large;
 }
-.effect:hover{
-    border: 2px solid white;
-}
-.description{
-    height: 89%;
-    width: 100%;
-    background-color: #364958;
-    border: 2px solid black;
-    border-radius: 5px;
-    margin-bottom: 4px;
-    padding-left: 3px;
-    ;
-}
-p{
-    font-size: 1.4rem;
-}
-#description_label{
-    font-weight: 900;
-    color: #ffffff;
-}
-#description_note{
-    font-weight: 550;
-}
-hr{
-    background-color: black;
-    height: 3px;
-}
-pre{
-    border-left: 2px solid gray;
-    padding-left: 10px;
-    font-size: 1rem;
+.tab {
+    display: none;
+    color: white;
 }
 
-/* Code solution */
-.container2{
-    color:#ffffff;
-    width: 54%;
-    height: 95vh;
-    position: relative;
-    border: 4px solid gray;
-    border-radius: 5px;
-    margin:10px ;
-
+.active-tab {
+    display: block;
 }
+
+/* .tab-button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #ccc;
+    border: 1px solid #666;
+    border-radius: 5px;
+} */
+
+/* .tab-button:hover {
+    background-color: #ddd;
+} */
